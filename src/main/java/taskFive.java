@@ -32,11 +32,9 @@ public class taskFive {
         Integer max = Collections.max(list);
         Stream<Integer> stream = list.stream();
         OptionalDouble average1 = stream.mapToDouble(x -> x).average();
-        Stream<Integer> stream1 = list.stream();
-        s
 
 
-        System.out.println("suma " + sum );
+
         System.out.println("Najwieksza liczba " + max);
         System.out.println("Najmniejsza liczba " + min);
         System.out.println("średnia liczba " + average1);
